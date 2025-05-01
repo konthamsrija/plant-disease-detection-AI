@@ -14,3 +14,4 @@ cloudinary
 load_dotenv
 streamlit_js_eval
 pymongo
+pydeck 
