@@ -1,7 +1,7 @@
 import streamlit as st
 import pymongo
 import os
-
+from pymongo.mongo_client import MongoClient
 import pandas as pd
 import pydeck as pdk
 
