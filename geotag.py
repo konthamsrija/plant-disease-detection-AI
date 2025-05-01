@@ -4,7 +4,7 @@ import pandas as pd
 import pydeck as pdk
 
 # MongoDB connection
-client = pymongo.MongoClient("mongodb+srv://shantanusingh1807:GyDJ8g8833ZZGuHz@cluster0.fa78xzn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+Mongo_URI = os.getenv("Mongo_URI")
 db = client["plantai"]
 collection = db["predictions"]
 
