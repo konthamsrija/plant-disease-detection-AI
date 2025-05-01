@@ -13,3 +13,4 @@ torchvision==0.15.2
 cloudinary
 load_dotenv
 streamlit_js_eval
+pymango
