@@ -47,7 +47,7 @@ st.pydeck_chart(pdk.Deck(
             data=df,
             get_position='[longitude, latitude]',
             get_color='[200, 30, 0, 160]',
-            get_radius=50000,
+            get_radius=50,
             pickable=True,
         ),
         pdk.Layer(
