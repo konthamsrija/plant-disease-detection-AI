@@ -194,7 +194,7 @@ elif app_mode == "ABOUT US":
         with cols[index % 3]:
             st.markdown(f"**    **")
             st.markdown(f"**{member['name']}**")
-            st.markdown(f"**Masters | CSE**  \nCentral Michigan University")
+            st.markdown(f"**Masters | CS**  \nCentral Michigan University")
 
 
 #Prediction Page
