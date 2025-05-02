@@ -121,7 +121,7 @@ if(app_mode=="HOME"):
                     'Tomato___Target_Spot', 'Tomato___Tomato_Yellow_Leaf_Curl_Virus', 'Tomato___Tomato_mosaic_virus',
                       'Tomato___healthy']
     
-    st.selectbox("Diseases predicted by the model:", class_name, index=int(result_index))
+    st.selectbox("Diseases predicted by the model:", class_name)
 
     # Footer
     st.markdown("""
