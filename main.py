@@ -106,6 +106,8 @@ if(app_mode=="HOME"):
     Use the sidebar to navigate and start detecting plant diseases!
     """, unsafe_allow_html=True)
 
+    st.selectbox("Diseases predicted by the model:", class_name, index=int(result_index))
+
     # Footer
     st.markdown("""
         <hr>
